@@ -19,3 +19,5 @@ For all platform (MacOS, Ubuntu, Windows)
 cmake -S . -B Build
 cmake --build Build --config Release
 ```
+
+if you have intel tbb installed, cmake would automatically use it.

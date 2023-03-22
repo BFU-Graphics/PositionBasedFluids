@@ -2,6 +2,7 @@ cmake_minimum_required(VERSION 3.24)
 project(PositionBasedFluids VERSION 2.0.0 DESCRIPTION "Position Based Fluids" LANGUAGES CXX)
 
 # renderers backend
+set(KASUMI_RENDERER_3D TRUE)
 add_subdirectory(kasumi)
 
 add_executable(PBF_APP main.cpp)
