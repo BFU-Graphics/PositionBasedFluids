@@ -1,0 +1,3 @@
+[submodule "kasumi"]
+	path = kasumi
+	url = https://github.com/HinaPE/Kasumi-renderer.git
